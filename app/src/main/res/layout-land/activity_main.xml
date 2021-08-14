@@ -8,13 +8,13 @@
 
     <FrameLayout
         android:id="@+id/listFrag"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/listFrag"
         android:layout_weight="1"
         android:layout_height="match_parent"/>
 
     <FrameLayout
         android:id="@+id/tasksFrag"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/taskFrag"
         android:layout_weight="1"
         android:layout_height="match_parent"/>
 

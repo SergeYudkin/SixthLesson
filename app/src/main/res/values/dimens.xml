@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="taxtSizeFragList">40sp</dimen>
+    <dimen name="listFrag">0dp</dimen>
+    <dimen name="taskFrag">0dp</dimen>
+</resources>

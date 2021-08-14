@@ -8,7 +8,7 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/textViewFragList"
-        android:textSize="40sp"
+        android:textSize="@dimen/taxtSizeFragList"
         android:gravity="center"
         android:textColor="@color/black"
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/textViewFragDescription"
-        android:text="14.08.2021"
+        android:text="@string/taxtDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
