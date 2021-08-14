@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ListFragment listFragment =ListFragment.newInstance();
+
         
 
         getSupportFragmentManager().beginTransaction()
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(getResources().getConfiguration().orientation== Configuration.ORIENTATION_LANDSCAPE){
             getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.contentFrag,TasksFragment.newInstance())
+                    .replace(R.id.tasksFrag,TasksFragment.newInstance(new Description("")))
                     .commit();
         }
     }

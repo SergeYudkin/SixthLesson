@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tasks_arr">
+    <item>Автомобиль</item>
+    <item>Дом</item>
+    <item>Двор</item>
+    <item>Квартира</item>
+    <item>Работа</item>
+
+    </string-array>
+    
+    <string-array name="description_arr">
+        <item>Заменить свечи,ВВ провода, масло, двухмассовый маховик и привода</item>
+        <item>Утеплить и зашить франтон</item>
+        <item>Раскопать канализацию</item>
+        <item>Постелить линолиум</item>
+        <item>По возможности не перетрудиться</item>
+
+    </string-array>
+
+    <string-array name="date_arr">
+        <item>14.08.2021</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+</resources>
